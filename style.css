@@ -1,0 +1,140 @@
+header{
+    background-image: url(villa-luxe-balinaise-thailandaise-piscine-debordement_41487-864.jpeg);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    
+    
+}
+
+
+
+.image{
+    width: 100%;
+    height: 500px;
+}
+
+
+.img1{
+
+}
+
+.image1{
+    width: 100%;
+    border-radius: 70px 70px;}
+
+
+body{
+    background-color: beige;
+}
+
+figcaption{
+    text-align: center;
+    border-radius: 70px 70px;
+    
+
+}
+.GB, .details{
+    display: flex;
+   flex-wrap: wrap;
+    
+    justify-content: space-between;
+    list-style: none;
+  
+}
+a{text-decoration: none;
+    color: white;
+}
+.center{
+    text-align: center;
+    color: white;
+}
+.card{
+    text-align: center;
+   
+    box-shadow:  10px 10px 10px 10px  rgba(92, 90, 90, 0.795);
+
+}
+nav{
+    background-color: rgb(4, 4, 78);
+    padding: 1px;
+}
+.fat{
+    display:flex;
+    justify-content:center;
+}
+.fat1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+.bg{
+    background-image: url(nnn.jpg);
+    background-size: 100%;
+}
+.p{
+    text-align: center;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(4, 4, 78);
+    color: white;
+    text-align: center;
+}
+#apropos{
+    padding: 20px 10px;
+    background: #fff;
+   
+}
+
+.details ul{
+    margin-right: 30px;
+}
+
+.details ul li{
+    list-style: none;
+}
+
+.details ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+.animation{
+    animation: 5s linear 3s infinite running slidein;
+    
+}
+@keyframes slidein {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+  form{
+     text-align: center;
+     padding: 5%;
+  }
+  button{
+      width: 120px;
+      height: 50px;
+      color: white;
+      background-color: rgb(78, 114, 63);
+      margin-top: 2%;
+  margin-left: 5%;
+  }
+
+
+
+    
+
+@media screen and (min-width: 500px) {
+     
+    .details{
+       
+       flex-wrap: wrap;
+        
+        justify-content: space-between;
+        list-style: none;
+      
+    }
+  }
